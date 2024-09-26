@@ -1,11 +1,4 @@
 ```mermaid
-sequenceDiagram
-  participant Attacker
-  participant BotNet
-  participant WebServer
-  participant Firewall
-
-```
 flowchart TD
     A[Start DDoS Attack] --> B[Identify Target]
     B --> C[Gather Resources]
@@ -18,3 +11,5 @@ flowchart TD
     H -->|No| J[Adjust Strategy]
     J --> C
     I --> K[End Attack]
+```
+
